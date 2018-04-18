@@ -4,19 +4,21 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Info</title>
+    <title>Portfolio Blake Moore</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css" />-->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/style2.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="navbar">
+    <header>
+        <nav>
             <div class="header-content">
-                <div class="nav">
+                <div class="navbar">
                     <ul>
-                        <li class="name">Blake Moore
+                        <li class="name">Blake Moore</a>
                         </li>
                         <li class="aboutme">
                             <a href="./index.html">About</a>
@@ -30,29 +32,35 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <!--Main Content Area-->
-        <section id="main-content">
-            <div class="container">
-                <h1>Contact Me</h1>
-                <div class="form-container">
-                    <form action="#">
-                        <label>Name </label>
-                        <input type="text" id="name" placeholder="John Smith">
-                        <label>Phone </label>
-                        <input type="text" id="number" placeholder="555-555-5555">
-                        <label>E-mail </label>
-                        <input type="text" id="email" placeholder="johnsmith@mail.com">
-                        <label>Name </label>
-                        <input type="text" id="message" placeholder="Message">
-                        <input type="submit" value="Submit">
+        </nav>
+    </header>
+    <!--Main Content Area-->
+    <section>
+        <div class="main-content">
+            <h1>Contact Me</h1>
+
+            <hr>
+
+            <div class="form-container">
+                <form action="#">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" name="phone" placeholder="555-555-5555">
+                        <label for="email">E-Mail:</label>
+                        <input type="text" id="email" name="email" placeholder="john@smith.com">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message">Write a short message here...</textarea>
                     </form>
-                </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-        </section>
-        <div class="footer">
-            <p>Copyright</p>
         </div>
+    </section>
+    <div class="footer">
+        <p>Copyright</p>
+    </div>
     </div>
 </body>
 
