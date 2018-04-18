@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  background-color: slategray;
+  text-align: center;
+}
+.header-content {
+  width: 100%;
+  background-color: grey;
+  height: 40px;
+  text-align: center;
+  border-bottom: 5px ridge #c3c3c3;
+  background-color: white;
+}
+
+.navbar {
+  height: 40px;
+  background-color: transparent;
+  width: 960px;
+  display: inline-block;
+  background-color: white;
+
+}
+
+.navbar ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.navbar ul li a:hover {
+  color: green;
+}
+
+.name {
+  float: left;
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.aboutme {
+  float: right;
+}
+
+.portfolio {
+  float: right;
+}
+
+.contact {
+  float: right;
+}
+
+.main-content {
+  width: 960px;
+  display: inline-block;
+  background-color: silver;
+  height: 600px;
+  clear: both;
+}
+
+h1 {
+  float: left;
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  text
+}
+
+img {
+  clear: both;
+  float: left;
+  margin: 20px;
+  margin-top: 0px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+  border-radius: 10px;
+}
+
+hr {
+    clear: both;
+    border-top: 3px double #8c8b8b;
+    margin-bottom: 20px;
+}
+
+p {
+  text-align: left;
+  margin: 20px;
+
+  
+}
