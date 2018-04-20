@@ -34,7 +34,7 @@ body {
 }
 
 .navbar ul li:active a {
-  background: #000; color:#FFF;
+  background: rgb(146, 44, 44); color:#FFF;
 }
 
 .navbar ul li a {
@@ -48,6 +48,11 @@ body {
 
 .navbar ul li a:hover {
   color: green;
+  cursor: pointer;
+}
+
+.navbar ul li a:active {
+  color: red;
 }
 
 .name {
@@ -73,12 +78,21 @@ body {
   float: right;
 }
 
+.main-port {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
 .main-content {
   width: 960px;
   display: inline-block;
   background-color: rgb(255, 255, 255);
   height: 600px;
   clear: both;
+  position: relative;
+  top: 25px;
+  border-radius: 5px;
 }
 
 h1 {
@@ -136,6 +150,7 @@ input[type=submit] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 textarea {
@@ -160,14 +175,35 @@ input[type=submit]:hover {
 }
 
 .footer-content {
-  width: 960px;
   height: 40px;
   text-align: center;
   border-top: 5px ridge #c3c3c3;
   background-color: white;
+  position: relative;
+  top: 25px;
 }
 
 .footer  {
   text-align: center;
   font-size: 12px;
+}
+
+.image {
+  clear: both;
+  display: flex;
+}
+
+.contact-links ul li {
+  text-decoration: none;
+  display: inline;
+}
+
+.contact-links ul li a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  margin-top: 25px;
+  width: 100%;
 }
